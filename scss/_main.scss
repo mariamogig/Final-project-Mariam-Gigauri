@@ -84,7 +84,7 @@
             align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-around;
+            justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
     .burger {
@@ -94,8 +94,8 @@
         color: grey;
     }
     .logo {
-        // padding-left: 80px;
-        width: 150px;
+        padding-left: 80px;
+        width: 210px;
     }
     .nav-ul {
         display: -webkit-box;
@@ -104,7 +104,7 @@
         padding-right: 96px;
         .nav-li {
             margin-left: 58px;
-            font-size: 20px;
+            font-size: 25px;
             color: #303134;
             font-family: 'Raleway', sans-serif;
             text-transform: uppercase;
@@ -113,23 +113,27 @@
 }
 .background {
     background-image: url('../images/big.png');
+    width: 100%;
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    // height: 600px;
-    // width: 100%;
-    // background-repeat: no-repeat;
-    // /* position: relative; */
-    // background-size: cover;
-    // background-position: center;
-    // display: -webkit-box;
-    // display: -ms-flexbox;
-    // display: flex;
-    // -webkit-box-pack: center;
-    //     -ms-flex-pack: center;
-    //         justify-content: center;
-    // -webkit-box-align: center;
-    //     -ms-flex-align: center;
-    //         align-items: center;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .titles {
+        padding-right: 340px;
+        color: white;
+        max-width: 1000px;
+        width: 100%;
+    }
+    .title1 {
+        font-size: 70px;
+        margin-bottom: 20px;
+        font-family: 'Otomanopee One', sans-serif;
+    }
+    .title2 {
+        font-size: 35px;
+        font-family: 'Varela Round', sans-serif;
+    }
 }
