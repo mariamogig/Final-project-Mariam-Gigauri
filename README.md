@@ -1,1 +1,1 @@
-# Final-project-Mariam-Gigauri
+# Mariam-Gigauri-Sass
