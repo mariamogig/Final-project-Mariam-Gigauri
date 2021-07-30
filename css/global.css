@@ -202,6 +202,9 @@ a {
     font-size: 20px;
     padding-left: 50px;
   }
+  .background {
+    height: 600px;
+  }
   .background .titles {
     padding-left: 60px;
   }
@@ -212,12 +215,17 @@ a {
   .background .titles .title2 {
     font-size: 25px;
     margin-right: 60px;
+    color: #4d4f4e;
   }
   .background .butt {
     width: 100px;
     font-size: 12px;
     height: 55px;
     border-radius: 4px;
+  }
+  .aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .aboutus .about1 {
     font-size: 25px;

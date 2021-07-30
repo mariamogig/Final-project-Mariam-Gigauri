@@ -16,6 +16,7 @@
 }
 }
     .background {
+        height: 600px;
         .titles {
             padding-left: 60px;
             .title1 {
@@ -25,6 +26,7 @@
             .title2 {
                 font-size: 25px;
                 margin-right:60px;
+                color: #4d4f4e;
             }
         }
         .butt {
@@ -35,6 +37,8 @@
         }
     }
     .aboutus {
+        padding-top: 50px;
+        padding-bottom: 50px;
         .about1 {
             font-size: 25px;
         }
