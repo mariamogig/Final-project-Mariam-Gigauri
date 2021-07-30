@@ -60,6 +60,8 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .header .logo {
@@ -74,19 +76,17 @@ a {
 .header .logo .furniture {
   font-size: 40px;
   font-family: "Josefin Sans", sans-serif;
-  color: #303134;
-}
-
-.header .logo .logo1 {
-  padding-left: 80px;
+  color: #424345;
+  padding-left: 100px;
   width: 210px;
 }
 
 .header .burger {
   display: none;
   padding-right: 40px;
-  padding-top: 10px;
-  color: grey;
+  padding-top: 6px;
+  color: #919293;
+  font-size: 30px;
 }
 
 .header .nav-ul {
@@ -105,7 +105,7 @@ a {
 }
 
 .background {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/banner3.jpg");
   width: 100%;
   height: 900px;
   background-repeat: no-repeat;
@@ -114,17 +114,16 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .background .titles {
-  padding-right: 340px;
-  color: white;
+  padding-left: 110px;
   max-width: 1000px;
   width: 100%;
 }
@@ -133,7 +132,7 @@ a {
   font-size: 80px;
   margin-bottom: 20px;
   font-family: "Josefin Sans", sans-serif;
-  color: #87676a;
+  color: #424345;
   max-width: 1000px;
   width: 100%;
 }
@@ -141,7 +140,7 @@ a {
 .background .title2 {
   font-size: 35px;
   font-family: "Josefin Sans", sans-serif;
-  color: #c6adb1;
+  color: #626664;
   margin-left: 10px;
 }
 
@@ -149,7 +148,7 @@ a {
   border-radius: 8px;
   width: 150px;
   height: 65px;
-  background-color: #9e7e81;
+  background-color: #dfb0a3;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   margin-top: 29px;
@@ -179,35 +178,24 @@ a {
   font-size: 40px;
   font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 20px;
-  color: #87676a;
+  color: #626664;
 }
 
 .aboutus .about2 {
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
-  color: #c7beb9;
+  color: #909395;
 }
 
 @media (max-width: 1185px) {
-  .section1 {
-    text-align: center;
+  .header .burger {
+    display: block;
   }
-  .section1 .image {
-    margin-top: 50px;
+  .header .nav-ul {
+    display: none;
   }
-  .section1 h1::after {
-    content: '';
-    width: 310px;
-    height: 3px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: blue;
-    margin-top: 11px;
-    margin: 0 auto;
-  }
-  .section1 h1:hover {
-    color: white;
+  .background {
+    padding-right: 40px;
   }
 }
 /*# sourceMappingURL=global.css.map */
