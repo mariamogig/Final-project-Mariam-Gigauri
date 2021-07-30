@@ -200,13 +200,14 @@ a {
   }
   .header .logo .furniture {
     font-size: 20px;
-    padding-left: 50px;
+    padding-left: 40px;
   }
   .background {
     height: 600px;
   }
   .background .titles {
-    padding-left: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .background .titles .title1 {
     font-size: 40px;
@@ -214,7 +215,6 @@ a {
   }
   .background .titles .title2 {
     font-size: 20px;
-    margin-right: 60px;
     color: #4d4f4e;
   }
   .background .butt {
