@@ -188,6 +188,10 @@ a {
 }
 
 @media (max-width: 1185px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .header .burger {
     display: block;
   }
