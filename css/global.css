@@ -217,6 +217,7 @@ a {
     width: 100px;
     font-size: 12px;
     height: 55px;
+    border-radius: 4px;
   }
   .aboutus .about1 {
     font-size: 25px;
