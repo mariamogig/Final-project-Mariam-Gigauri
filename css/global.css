@@ -203,6 +203,11 @@ a {
   .background {
     padding-right: 40px;
   }
+  .background .butt {
+    width: 100px;
+    font-size: 12px;
+    height: 55px;
+  }
   .aboutus .about1 {
     font-size: 30px;
   }
