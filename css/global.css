@@ -194,6 +194,9 @@ a {
   .header .nav-ul {
     display: none;
   }
+  .header .logo .furniture {
+    font-size: 25px;
+  }
   .titles .title1 {
     font-size: 50px;
   }
