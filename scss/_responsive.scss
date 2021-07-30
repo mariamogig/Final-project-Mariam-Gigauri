@@ -31,13 +31,23 @@
 }
     .titles {
         .title1 {
-            font-size: 60px;
+            font-size: 50px;
         }
         .title2 {
-            font-size: 30px;
+            font-size: 25px;
         }
     }
     .background {
         padding-right: 40px;
+    }
+    .aboutus {
+        .about1 {
+            font-size: 30px;
+        }
+        .about2 {
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 17px;
+        }
     }
 }
