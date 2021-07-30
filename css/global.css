@@ -194,6 +194,12 @@ a {
   .header .nav-ul {
     display: none;
   }
+  .titles .title1 {
+    font-size: 60px;
+  }
+  .titles .title2 {
+    font-size: 30px;
+  }
   .background {
     padding-right: 40px;
   }
