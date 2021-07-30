@@ -197,14 +197,16 @@ a {
   .header .logo .furniture {
     font-size: 25px;
   }
-  .titles .title1 {
+  .background .titles {
+    padding-left: 60px;
+  }
+  .background .titles .title1 {
     font-size: 50px;
+    padding-right: 5px;
   }
-  .titles .title2 {
+  .background .titles .title2 {
     font-size: 25px;
-  }
-  .background {
-    padding-right: 40px;
+    margin-right: 60px;
   }
   .background .butt {
     width: 100px;
