@@ -195,7 +195,8 @@ a {
     display: none;
   }
   .header .logo .furniture {
-    font-size: 25px;
+    font-size: 20px;
+    padding-left: 50px;
   }
   .background .titles {
     padding-left: 60px;
@@ -214,7 +215,7 @@ a {
     height: 55px;
   }
   .aboutus .about1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .aboutus .about2 {
     padding-right: 15px;
