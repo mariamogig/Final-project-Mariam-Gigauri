@@ -85,17 +85,24 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    .logo {
+        display: flex;
+        align-items: center;
+        .furniture {
+            font-size: 40px;
+            font-family: $font03;
+            color: #303134;
+        }
+    .logo1 {
+        padding-left: 80px;
+        width: 210px;
+    }
+    }
     .burger {
         display: none;
         padding-right: 40px;
         padding-top: 10px;
         color: grey;
-    }
-    .logo {
-        padding-left: 80px;
-        width: 210px;
     }
     .nav-ul {
         display: -webkit-box;
@@ -128,12 +135,54 @@
         width: 100%;
     }
     .title1 {
-        font-size: 70px;
+        font-size: 80px;
         margin-bottom: 20px;
-        font-family: 'Otomanopee One', sans-serif;
+        font-family: $font03;
+        color: #87676a;
+        max-width: 1000px;
+        width: 100%;
     }
     .title2 {
         font-size: 35px;
-        font-family: 'Varela Round', sans-serif;
+        font-family: $font03;
+        color: #c6adb1;
+        margin-left: 10px;
+    }
+    .butt {
+        border-radius: 8px;
+        width: 150px;
+        height: 65px;
+        background-color: #9e7e81;
+        transition-duration: 0.4s;
+        margin-top: 29px;
+        margin-left: 10px;
+        border: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        &:hover {
+            background-color: #c6adb1; 
+            color: white;
+        }
+    }
+}
+.aboutus {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .about1 {
+        font-size: 40px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 20px;
+        color: #87676a;
+    }
+    .about2 {
+        font-size: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #c7beb9;
     }
 }
