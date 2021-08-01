@@ -279,6 +279,71 @@ a {
   color: #909395;
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+
+.footer .iconsft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 67px;
+  font-size: 20px;
+}
+
+.footer .iconsft .follow {
+  margin-right: 10px;
+}
+
+.footer .iconsft .fab {
+  margin-right: 10px;
+}
+
+.ft-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-transform: uppercase;
+  margin-left: 49px;
+}
+
+.ft-li {
+  margin-right: 30px;
+  font-size: 12px;
+}
+
+.iconsft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 67px;
+}
+
+.foot2 {
+  height: 100px;
+  background-color: #e1e0de;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-top: 40px;
+}
+
 @media (max-width: 1185px) {
   .header {
     padding-top: 10px;

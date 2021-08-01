@@ -190,3 +190,47 @@
         color: #909395;
     }
 }
+
+// footer
+.footer {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 50px;
+    .iconsft {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 67px;
+        font-size: 20px;
+        .follow {
+            margin-right: 10px;
+        }
+        .fab {
+            margin-right: 10px;
+        }
+    }
+}
+.ft-ul {
+	display: flex;
+	justify-content: space-around;
+	text-transform: uppercase;
+	margin-left: 49px;
+}
+.ft-li {
+	margin-right: 30px;
+	font-size: 12px;
+}
+.iconsft {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 67px;
+}
+.foot2 {
+	height: 100px;
+	background-color: #e1e0de;
+	color: black;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 40px;
+ }
