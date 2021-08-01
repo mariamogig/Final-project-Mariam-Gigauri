@@ -1,0 +1,25 @@
+.products {
+    .catalog {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .imgcat {
+        display: block;
+        width: 25%;
+        margin-right: 17px;
+        margin-bottom: 17px;
+        border-radius:10px;
+    }
+}
+    .producttitle {
+        .best {
+        font-size: 30px;
+        text-align: center; 
+        padding-top: 100px;   
+        padding-bottom: 100px;    
+        justify-content: center;
+    }
+    }
+}

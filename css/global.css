@@ -48,6 +48,98 @@ a {
           box-sizing: border-box;
 }
 
+.sect1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 100px;
+}
+
+.sect1 .form-wrapper .contact-form .right .form .input-wraper {
+  max-width: 850px;
+  width: 100%;
+  height: 50px;
+}
+
+.sect1 .contact {
+  font-size: 30px;
+}
+
+.sect1 .contact .ci {
+  margin-bottom: 20px;
+}
+
+.sect1 .contact .info {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer .forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .email-box {
+  max-width: 430px;
+  width: 100%;
+  background-color: #EAECF2;
+  height: 52px;
+}
+
+.footer .ft-titles {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.footer .ft-titles .fth4 {
+  color: #7E76F9;
+  font-size: 20px;
+}
+
+.footer .ft-titles .fth2 {
+  font-size: 32px;
+  color: #42495B;
+}
+
+.products .catalog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products .catalog .imgcat {
+  display: block;
+  width: 25%;
+  margin-right: 17px;
+  margin-bottom: 17px;
+  border-radius: 10px;
+}
+
+.products .producttitle .best {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,8 +166,8 @@ a {
 }
 
 .header .logo .furniture {
-  font-size: 40px;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
   color: #424345;
   padding-left: 100px;
   width: 210px;
@@ -98,7 +190,7 @@ a {
 
 .header .nav-ul .nav-li {
   margin-left: 58px;
-  font-size: 25px;
+  font-size: 20px;
   color: #303134;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
