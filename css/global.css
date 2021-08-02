@@ -393,8 +393,11 @@ a {
     padding-left: 15px;
     font-size: 17px;
   }
-  .producttitle .best {
+  .products .producttitle .best {
     font-size: 20px;
+  }
+  .foot2 {
+    font-size: 15px;
   }
   .footer {
     -webkit-box-pack: center;
