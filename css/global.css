@@ -130,6 +130,11 @@ a {
   border-radius: 10px;
 }
 
+.products .catalog .imgcat:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
 .products .producttitle .best {
   font-size: 40px;
   text-align: center;
@@ -146,13 +151,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 35px;
   padding-bottom: 35px;
 }
@@ -167,7 +172,7 @@ a {
 }
 
 .header .logo .furniture {
-  font-size: 35px;
+  font-size: 27px;
   font-family: "Raleway", sans-serif;
   color: #424345;
   padding-left: 100px;
@@ -304,6 +309,7 @@ a {
 
 .footer .iconsft .follow {
   margin-right: 10px;
+  text-transform: uppercase;
 }
 
 .footer .iconsft .fab {
@@ -322,7 +328,7 @@ a {
 
 .ft-li {
   margin-right: 30px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .iconsft {
@@ -397,12 +403,15 @@ a {
     font-size: 20px;
   }
   .foot2 {
-    font-size: 15px;
+    font-size: 11px;
   }
   .footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .footer .ft-ul {
+    font-size: 9px;
   }
   .footer .iconsft {
     display: none;
