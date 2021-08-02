@@ -410,8 +410,8 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footer .ft-ul {
-    font-size: 9px;
+  .footer .ft-ul .ft-li {
+    font-size: 10px;
   }
   .footer .iconsft {
     display: none;
